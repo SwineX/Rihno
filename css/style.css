@@ -1,0 +1,14 @@
+body
+{
+	background-image:url(../images/bridge-bg.jpg);
+	background-size:100%;
+	background-repeat:no-repeat;
+	font-family: "Microsoft YaHei" !important; 
+}
+
+header
+{
+	width:auto;
+	margin: 100px 0 0 0;
+	height:100px;
+}
