@@ -1,0 +1,57 @@
+body
+{
+	background-image:url(../images/bridge-bg-low-clear.jpg);
+	background-size:100%;
+	background-repeat:no-repeat;
+	font-family: "Microsoft YaHei" !important; 
+}
+
+header
+{
+	width:auto;
+	margin: 150px 0 0 0;
+	height:100px;
+}
+
+.xbtn {
+  padding: 10px 15px;
+  color:#fff;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.4;
+  -webkit-transition: border .25s linear, color .25s linear, background-color .25s linear;
+          transition: border .25s linear, color .25s linear, background-color .25s linear;
+
+  -webkit-font-smoothing: subpixel-antialiased;
+  }
+  
+.xbtn:hover,
+.xbtn:focus {
+  outline: none;
+  text-decoration:none;
+  cursor:pointer;
+}
+.xbtn:active,
+.xbtn.active {
+  outline: none;
+  box-shadow: none;
+  
+}
+
+.xbtn-box
+{
+  border:solid 1px #fff;
+}
+
+.xbtn:hover,
+.xbtn:focus {
+  color:#000;
+  background:#fff;
+}
+
+
+
+
+
+
+
