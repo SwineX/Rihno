@@ -2,8 +2,7 @@ body
 {
 	background-image:url(../images/bridge-bg-low-clear.jpg);
 	background-size:100%;
-	background:#5e5a57;
-	background-repeat:no-repeat;
+	background-repeat:repeat;
 	font-family: "Microsoft YaHei" !important; 
 }
 
