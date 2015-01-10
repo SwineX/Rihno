@@ -6,11 +6,9 @@ html
 
 body
 {
-<<<<<<< HEAD
   height:100%;
   font-family: "Microsoft YaHei" !important;
   background-color:#010103;
-  background-repeat;repeat;
 }
 
 .xbg
@@ -25,12 +23,6 @@ body
   width:100%;
   height:auto;
   opacity:0;
-=======
-	background-image:url(../images/bridge-bg-low-clear.jpg);
-	background-size:100%;
-	background-repeat:repeat;
-	font-family: "Microsoft YaHei" !important; 
->>>>>>> origin/gh-pages
 }
 
 header
