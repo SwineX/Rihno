@@ -1,17 +1,48 @@
+html
+{
+	min-height: 100%;
+	height:100%;
+}
+
 body
 {
-	background-image:url(../images/bridge-bg-low-clear.jpg);
-	background-size:100%;
-	background-repeat:no-repeat;
-	background-color:#5e5a57;
-	font-family: "Microsoft YaHei" !important; 
+  height:100%;
+  font-family: "Microsoft YaHei" !important;
+  background-color:#010103;
+  background-repeat;repeat;
+}
+
+.xbg
+{
+  width:100%;
+  height:auto;
+}
+
+.xbg img
+{
+  position:absolute;
+  width:100%;
+  height:auto;
+  opacity:0;
 }
 
 header
 {
-	width:auto;
-	margin: 150px 0 0 0;
-	height:100px;
+  width:auto;
+  margin:0px 0 0 0;
+  height:100%;
+  padding:150px 0 0 0;
+}
+
+#catalogue
+{
+  height:100%;
+  padding:150px 0 0 0;
+}
+
+#list
+{
+	width:100%;
 }
 
 .xbtn {
@@ -49,6 +80,36 @@ header
   color:#000;
   background:#fff;
 }
+
+.xbtn-item
+{
+  width:2.5em;
+  height:auto;
+  font-size:20px;
+  text-align:center;
+  float:left;
+}
+
+.picture
+{
+  font-size:10px;
+  font-style:italic;
+  padding:10px 0 0 20px;
+}
+
+.music
+{
+  font-size:10px;
+  font-style:italic;
+  padding:10px 0 0 20px;
+}
+
+.picture,.music p
+{
+  padding:0 0 0 0;
+}
+
+
 
 
 
