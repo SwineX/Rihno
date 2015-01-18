@@ -28,7 +28,7 @@ $.articles = [
 	attach:{
 		piece_song:{
 			type:"music",
-			url:"http://up.yuedisk.com/wl/url/SwineX/303812/yuedisk.mp3",
+			url:"http://data8.5sing.kgimg.com/T1U5APB4ZT1R47IVrK.mp3",
 			desc:"<< 平和 >> copyright belongs to SwineX."	
 		},
 		piece_picture:{
