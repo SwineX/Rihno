@@ -8,7 +8,7 @@ $.articles = [
 	attach:{
 		never_song:{
 			type:"music",
-			url:"http://data5.5sing.kgimg.com/T1tk_nBXDT1R47IVrK.mp3",
+			url:"http://data8.5sing.kgimg.com/T1U5APB4ZT1R47IVrK.mp3",
 			desc:"<< Never >> copyright belongs to SwineX."	
 		},
 		never_picture:{
