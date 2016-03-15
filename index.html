@@ -1,218 +1,250 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>SwineX - Rihno</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-	
-		
-		
-		<!--link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
-		<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
-		
-		<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
-		<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script-->
+<head>
+    <title>SwineX - Rihno</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
 
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
-		
-		<script src="js/jquery.js"></script>
-		<script src="js/jquery.mousewheel-3.0.6.pack.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/data.js"></script>
-		<script src="js/app.js"></script>
-		<link rel="stylesheet" href="css/style.css">
-		
-		
 
-	</head>
-	<body>
-		<div class="xbg">
-			<img src="images/whale.png">
-			<img src="images/bridge.png">
-			<img src="images/forest.jpg">
-		</div>
-		<header id="preface">
-			<div class="row" style="margin:0 5px 0 5px;">
-				<div class="col-xs-offset-4 col-xs-4 " style="color:#fff;">
-					<div class="page-header">
-					  <h1 >序</h1>
-					</div>
-仿佛昨天一起走过的路，<br/>
-今天，我独自一个人走过．<br/>
-<br/>
-枝叶密密，<br/>
-道路昏昏；<br/>
-无需聆听，<br/>
-因为秋天到了．<br/>
-<br/>
-一阵风过，<br/>
-我熟悉那味道；<br/>
-我加快了步伐，<br/>
-追着风．<br/>
-<br/>
-风停了，<br/>
-我站在风的尽头；<br/>
-依然，<br/>
-枝叶密密，<br/>
-道路昏昏。<br/>
-					<h2><a id="start" class="xbtn xbtn-box">伊始</a></h2>
+    <!--link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
 
-					
-					<hr/>
-					<p style="text-align:center;color:#eee;">
-						<small>记录一个小人物的平凡事</small>
-						<br/>
-						<br/>
-					</p>
-				</div>
-			</div>
-		</header >
-		
-		<div id="catalogue" style="">
-			<div class="row" style="margin:0 5px 0 5px">
-				<div class="col-xs-offset-4 col-xs-4 " style="color:#fff;">
-					<div class="page-header">
-					  <h1>目录</h1>
-					</div>
-					<div id="list">
-						<div id="item-model" class="xbtn xbtn-item" style="display:none;"><span class="item-order">1</span><br/>·<br/>·<br/>·<br/><span class="item-title"></span></div>
-						<div id="list-end" style="clear:both"></div>
-					</div>
-					<br/>
-				</div>
-			</div>
-		</div>
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script-->
 
-		
-		
-		
-		
-		<footer>
-			
-		</footer>
-		
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+<div class="xbg">
+    <img src="images/whale.png">
+    <img src="images/bridge.png">
+    <img src="images/forest.jpg">
+</div>
+<header id="preface">
+    <div class="row" style="margin:0 5px 0 5px;">
+        <div class="col-xs-offset-4 col-xs-4 " style="color:#fff;">
+            <div class="page-header">
+                <h1>序</h1>
+            </div>
+            仿佛昨天一起走过的路，<br/>
+            今天，我独自一个人走过．<br/>
+            <br/>
+            枝叶密密，<br/>
+            道路昏昏；<br/>
+            无需聆听，<br/>
+            因为秋天到了．<br/>
+            <br/>
+            一阵风过，<br/>
+            我熟悉那味道；<br/>
+            我加快了步伐，<br/>
+            追着风．<br/>
+            <br/>
+            风停了，<br/>
+            我站在风的尽头；<br/>
+            依然，<br/>
+            枝叶密密，<br/>
+            道路昏昏。<br/>
+
+            <h2><a id="start" class="xbtn xbtn-box">伊始</a></h2>
+
+
+            <hr/>
+            <p style="text-align:center;color:#eee;">
+                <small>记录一个小人物的平凡事</small>
+                <br/>
+                <br/>
+            </p>
+        </div>
+    </div>
+</header>
+
+<div id="back" style="position: fixed; left: 10px; bottom: 10px; z-index: 99; display: none;">
+    <a href="javascript:void(0)"><img style="width: 64px; height: 64px;" src="images/up.svg"/></a>
+</div>
+
+<div id="catalogue" style="">
+    <div class="row" style="margin:0 5px 0 5px">
+        <div class="col-xs-offset-4 col-xs-4 " style="color:#fff;">
+            <div class="page-header">
+                <h1>目录</h1>
+            </div>
+            <div id="list">
+                <div id="item-model" class="xbtn xbtn-item" style="display:none;"><span class="item-order">1</span><br/>·<br/>·<br/>·<br/><span
+                        class="item-title"></span></div>
+                <div id="list-end" style="clear:both"></div>
+            </div>
+            <br/>
+        </div>
+    </div>
+</div>
+<footer>
+
+</footer>
+
 <!-------------------------------------模板库------------------------------------->
-		
-		<div id="pic_model" class="picture" style="font-size:10px;padding:10px 0 10px 20px;display:none">
-			<a href="###" title="有人相爱，有人开车看海" >
-				<img style="width:60%;height:auto" src="images/bridge-bg-low.jpg" alt>
-			</a>
-			<p>
-				有人相爱，有人开车看海
-			</p>
-		</div>
-		
-		<div id="mus_model" class="music" style="display:none">
-			<p>
-				<< Never >> copy right belongs to SwineX.
-			</p>
-			<audio controls="controls">
-				您的浏览器不支持 audio 标签。
-				<source src="http://data5.5sing.kgimg.com/T1tk_nBXDT1R47IVrK.mp3" type="audio/mpeg">
-			</audio>
-		</div>
-		
-		<article id="article-model" style="display:none">
-			<div class="row" style="margin:0 5px 0 5px;">
-				<div class="col-xs-offset-3 col-xs-6 " style="color:#fff;">
-					<div class="page-header title">
-					  <h1>平和</h1>
-					</div>
-					<p class="text">
-					
-					</p>
-				</div>
-			</div>
-		</article>
-		
-		
-			
-		<div id="source" style="display:none">
-			<p id="s_never">
-第一次在5sing上发的歌，
-起因是看到了一句诗：
-<i>In any place take flight, 
-The dark will mutate into light</i>
-好吧，也没什么特别的其实。
-#never_picture##never_song#
-<a href="http://5sing.kugou.com/yc/2577916.html" target="_blank">听不到？戳这里~</a>
-歌词：
-U never wanna call my name 
-U never wanna hold my hand 
-And U 'll never know 
-How much I wanna hug U tight
-U never wanna know where am I
-U never wanna watch my eye
-And U 'll never know
-That I miss U all the night.
-			</p>
-			
-			<p id="s_piece">
-同学有天微信给我的词，
-最开始也不算是词，只能说一段文字，
-读到第一句“我不懂你唱的歌，但见那平和，已很快乐”，就想写成歌。
-把自己喜欢的句子留了下来，然后自己改了下句式，加了点让“故事”更完整的内容。
-自觉得写的有点奇怪吧，不能太把它当成一首歌来听，
-就好像我弹着琴，突然想唱歌了，后来无法唱了只想弹琴，
-再后来，唱着结束吧。就这样。
-#piece_song##piece_picture#
-<a href="http://5sing.kugou.com/yc/2717571.html" target="_blank">听不到？戳这里~</a>
-演唱：SwineX
-作词：SwineX & 鲁巧昀
-作曲：SwineX
 
-歌词：
-我不懂你唱的歌
-但见那平和
-已很快乐
-还有再过多少年呢？
-才能笑着诉述
-现在的 那些不快乐
-不管怎样
-时间它还是一样过
-但愿那时候
-你的眼神 还是温热
+<div id="pic_model" class="picture" style="font-size:10px;padding:10px 0 10px 20px;display:none">
+    <a href="###" title="有人相爱，有人开车看海">
+        <img style="width:60%;height:auto" src="images/bridge-bg-low.jpg" alt>
+    </a>
 
-曾迷恋的 曾向往的
-被错过了 被冲淡了
-那骄傲的远方呢？
-曾在你的眼里
-又被什么 给划伤了
+    <p>
+        有人相爱，有人开车看海
+    </p>
+</div>
 
-想记住的 想挽留的
-被遗忘了 被丢弃了
-青春一页页翻过
-世界喧嚣着零落
-我看着
-坐上了末班的电车
+<div id="mus_model" class="music" style="display:none">
+    <p>
+        << Never >> copy right belongs to SwineX.
+    </p>
+    <audio controls="controls">
+        您的浏览器不支持 audio 标签。
+        <source src="http://data5.5sing.kgimg.com/T1tk_nBXDT1R47IVrK.mp3" type="audio/mpeg">
+    </audio>
+</div>
 
----间奏 略长 ---
+<article id="article-model" style="display:none">
+    <div class="row" style="margin:0 5px 0 5px;">
+        <div class="col-xs-offset-3 col-xs-6 " style="color:#fff;">
+            <div class="page-header title">
+                <h1>平和</h1>
+            </div>
+            <p class="text">
 
-~~~~~~~~~啦~~~~~~~~~
-~~~~~~~~~啦~~~~~~~~~
+            </p>
+        </div>
+    </div>
+</article>
 
-那骄傲的远方
-原来你都不曾忘
-收好行囊
-去到你想去的地方
 
-我不懂你唱的歌
-但见那平和
-已很快乐
+<div id="source" style="display:none">
+    <p id="s_never">
+        第一次在5sing上发的歌，
+        起因是看到了一句诗：
+        <i>In any place take flight,
+            The dark will mutate into light</i>
+        好吧，也没什么特别的其实。
+        #never_picture##never_song#
+        <a href="http://5sing.kugou.com/yc/2577916.html" target="_blank">听不到？戳这里~</a>
+        歌词：
+        U never wanna call my name
+        U never wanna hold my hand
+        And U 'll never know
+        How much I wanna hug U tight
+        U never wanna know where am I
+        U never wanna watch my eye
+        And U 'll never know
+        That I miss U all the night.
+    </p>
 
-还要再过多少年呢？
-才能笑着诉说
-现在的 那些不快乐
-但愿那时候 
-你的眼神 还是温热
-但愿那时候
-我们还保留着
-那份平和。
+    <p id="s_piece">
+        同学有天微信给我的词，
+        最开始也不算是词，只能说一段文字，
+        读到第一句“我不懂你唱的歌，但见那平和，已很快乐”，就想写成歌。
+        把自己喜欢的句子留了下来，然后自己改了下句式，加了点让“故事”更完整的内容。
+        自觉得写的有点奇怪吧，不能太把它当成一首歌来听，
+        就好像我弹着琴，突然想唱歌了，后来无法唱了只想弹琴，
+        再后来，唱着结束吧。就这样。
+        #piece_song##piece_picture#
+        <a href="http://5sing.kugou.com/yc/2717571.html" target="_blank">听不到？戳这里~</a>
+        演唱：SwineX
+        作词：SwineX & 鲁巧昀
+        作曲：SwineX
 
-----END----
-			</p>
-		</div>
-	</body>
+        歌词：
+        我不懂你唱的歌
+        但见那平和
+        已很快乐
+        还有再过多少年呢？
+        才能笑着诉述
+        现在的 那些不快乐
+        不管怎样
+        时间它还是一样过
+        但愿那时候
+        你的眼神 还是温热
+
+        曾迷恋的 曾向往的
+        被错过了 被冲淡了
+        那骄傲的远方呢？
+        曾在你的眼里
+        又被什么 给划伤了
+
+        想记住的 想挽留的
+        被遗忘了 被丢弃了
+        青春一页页翻过
+        世界喧嚣着零落
+        我看着
+        坐上了末班的电车
+
+        ---间奏 略长 ---
+
+        ~~~~~~~~~啦~~~~~~~~~
+        ~~~~~~~~~啦~~~~~~~~~
+
+        那骄傲的远方
+        原来你都不曾忘
+        收好行囊
+        去到你想去的地方
+
+        我不懂你唱的歌
+        但见那平和
+        已很快乐
+
+        还要再过多少年呢？
+        才能笑着诉说
+        现在的 那些不快乐
+        但愿那时候
+        你的眼神 还是温热
+        但愿那时候
+        我们还保留着
+        那份平和。
+
+        ----END----
+    </p>
+
+    <p id="s_letter">
+        记得，第一次见你时，你是让我帮你介绍学长来着吧。
+        记得，第一次见你时，你和我一样趴在桌上看鬼片；
+        回去时，我拉你的手臂把你拉回路边，又轻又软，恍惚间发现你有片刻的失神，好像飘着飘着就要不见了一样。
+        说实话，我的确有很认真的想帮你找个靠谱的好学长。
+
+        之后，
+        你第一次放我鸽子，
+        去看苏打绿，
+        去85c，
+        去爬山
+        去乐尔乐，
+        去一徳一，
+        去看海绵宝宝，
+        你赶开题我练琴，
+        听你抱怨发牢骚，
+        我唱歌你突然哭了我就慌了，
+        你第二次放我鸽子。
+
+        再之后，
+        期待你给我发微信，
+        每天都好像想见你，
+        和你一起吃什么都好吃，
+        觉得你也没比我高多少，
+        鞋底高点我站在你旁边显得也不会太糟，
+        不想帮你介绍学长了。
+
+        那么，让一切回到最开始。
+        你说：帮我介绍靠谱的学长呀？
+        我说：我怎么样？
+        #letter_picture##letter_song#
+    </p>
+</div>
+</body>
 </html>
