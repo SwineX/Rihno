@@ -39,23 +39,5 @@ $.articles = [
             }
         }
     },
-    {
-        id: "letter",
-        title: "写给你的明信片",
-        type: "article",
-        attach: {
-            letter_song: {
-                type: "music",
-                auto:1,
-                url: "http://data.5sing.kgimg.com/G033/M05/04/11/wYYBAFXh_LaAYxlBAJdnrt57Wok712.mp3",
-                desc: ""
-            },
-            letter_picture: {
-                type: "pic",
-                url1: "images/do-u.jpg",
-                desc: "twt"
-            }
-        }
-    },
 
 ];
